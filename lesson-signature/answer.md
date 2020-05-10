@@ -99,7 +99,7 @@ $ git commit -m "Adding Peter's Signature"
 ## Step 7
 
 ```bash
-$ git push
+$ git push --set-origin peter-mangelsdorf
 ```
 
 
@@ -108,13 +108,18 @@ $ git push
 ## Step 8
 
 ```bash
-$ git checkout master
+$ git checkout dev
+Switched to branch 'dev'
+Your branch is ahead of 'dev'.
 
 $ git pull
+Already up to date.
 
 $ git checkout peter-mangelsdorf
+Switched to branch 'peter-mangelsdorf'
+Your branch is up to date with 'peter-mangelsdorf'.
 
-$ git merge master
+$ git merge dev
 
 $ git add .
 
