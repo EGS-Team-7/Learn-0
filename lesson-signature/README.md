@@ -24,8 +24,8 @@ Follow these instructions to pass.
  7. `push` it to your branch
  8. `merge` your branch with `dev`
  9. make a `pull request` to `dev` from your branch
-1.  message a friend to `review` your pull request
-2.  (friend) `open` the pull request and `approve` it
+10. message a friend to `review` your pull request
+11. (friend) `open` the pull request and `approve` it
 
 
 
