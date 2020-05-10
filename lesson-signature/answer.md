@@ -118,20 +118,16 @@ Branch 'peter-mangelsdorf' set up to track remote branch 'peter-mangelsdorf' fro
 ```bash
 $ git checkout dev
 Switched to branch 'dev'
-Your branch is ahead of 'dev'.
+Your branch is up to date with 'dev'.
 
-$ git pull
-Already up to date.
+Your branch is ahead of 'dev' by 2 commits.
+  (use "git push" to publish your local commits)
 
-$ git checkout peter-mangelsdorf
-Switched to branch 'peter-mangelsdorf'
-Your branch is up to date with 'peter-mangelsdorf'.
-
-$ git merge dev
-
-$ git add .
-
-$ git commit -m"Finalizing Changes to Readme"
+$ git merge peter-mangelsdorf
+Updating c1201ff..05c73be
+Fast-forward
+ lesson-signature/README.md | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
 
 $ git push
 Enumerating objects: 7, done.
