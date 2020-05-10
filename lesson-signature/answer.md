@@ -99,7 +99,15 @@ $ git commit -m "Adding Peter's Signature"
 ## Step 7
 
 ```bash
-$ git push --set-origin peter-mangelsdorf
+$ git push --set-upstream origin peter-mangelsdorf
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'peter-mangelsdorf' on GitHub by visiting:
+remote:      https://github.com/EGS-Team-7/Learn-0/pull/new/peter-mangelsdorf
+remote:
+To https://github.com/EGS-Team-7/Learn-0/
+ * [new branch]      peter-mangelsdorf -> peter-mangelsdorf
+Branch 'peter-mangelsdorf' set up to track remote branch 'peter-mangelsdorf' from 'origin'.
 ```
 
 
