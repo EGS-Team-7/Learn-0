@@ -15,6 +15,4 @@
 
  - Peter Was Here!
 
-Oogle Boogle Woogle
-
 
